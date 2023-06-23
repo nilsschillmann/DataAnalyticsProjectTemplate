@@ -7,6 +7,8 @@ Short description of the project. What it is, what it does, and the key technolo
 - [Project Title](#project-title)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
+    - [Setup Virtual Environment](#setup-virtual-environment)
+    - [Install Dependencies](#install-dependencies)
   - [Usage](#usage)
   - [Data](#data)
   - [Methodology](#methodology)
@@ -14,13 +16,41 @@ Short description of the project. What it is, what it does, and the key technolo
   - [Contributing](#contributing)
   - [License](#license)
 
+
+
+
 ## Installation
 
-Instructions on how to install and set up the project. This could include instructions on setting up a virtual environment, installing dependencies with pip, and so on.
+Instructions on how to install and set up the project. This includes setting up a virtual environment and installing dependencies with pip.
 
+### Setup Virtual Environment
+
+It is often good practice to create a virtual environment for your projects to manage dependencies. Here is how you could set it up:
+
+```bash
+# Using venv
+python3 -m venv env
 ```
+
+Activate the environment:
+
+```bash
+# On Windows
+.\env\Scripts\activate
+
+# On Unix or MacOS
+source env/bin/activate
+```
+
+### Install Dependencies
+
+After activating the virtual environment, you can install the dependencies:
+
+```bash
 pip install -r requirements.txt
 ```
+
+
 
 ## Usage
 
